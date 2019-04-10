@@ -120,7 +120,7 @@ else {
 function sliderSettings(images) {
   return {
     arrows: true,
-    autoplay: false,
+    autoPlay: false,
     autoplaySpeed: 20000,
     centerMode: true,
     centerPadding: '0px',
