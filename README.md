@@ -3,6 +3,10 @@
 
 A swipeable header React component/Scrivito widget for the Scrivito CMS.
 
+## Screenshot
+
+![Screenshot](https://raw.githubusercontent.com/mdwp/scrivito-swipeable/master/swipeable-screenshot.png)
+
 ## Installation
 
 Open your terminal.
