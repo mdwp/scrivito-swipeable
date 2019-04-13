@@ -20,13 +20,13 @@ Scrivito.provideComponent("SwipeFullWidget", ({ widget }) => {
     const items = widget.get('items');
     const settings = sliderSettings(items);
 
-    /*if (!items.length) {
+    if (!items.length && Scrivito.isInPlaceEditingActive()) {
       return (
-        <InPlaceEditingPlaceholder center={ true }>
-          Add content in the widget properties.
-        </InPlaceEditingPlaceholder>
+          <h4 className="text-center">
+            Provide the content of slides in the widget properties.
+          </h4>
       );
-    }*/
+    }
 
     return (
       <div>
