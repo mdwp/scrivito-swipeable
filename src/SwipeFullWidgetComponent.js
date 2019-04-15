@@ -111,6 +111,7 @@ else {
       width='100%'
       autoPlay="true"
       muted
+      controls
     />
   );
 }
