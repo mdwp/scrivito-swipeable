@@ -110,7 +110,7 @@ else {
       poster={ posterUrl }
       width='100%'
       autoPlay="true"
-      muted='true'
+      muted
     />
   );
 }
