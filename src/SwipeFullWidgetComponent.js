@@ -109,7 +109,8 @@ else {
       attribute="video"
       poster={ posterUrl }
       width='100%'
-      autoplay="true"
+      autoPlay="true"
+      muted='true'
     />
   );
 }
