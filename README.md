@@ -13,7 +13,7 @@ Open your terminal.
 
 `$ cd` to your Scrivito project
 
-```
+```shell
 $ npm install scrivito-swipeable
 ```
 
@@ -21,37 +21,19 @@ Import the widget in your javascript (e.g. in `index.js` or `Widgets/index.js`).
 
 Add this line to your index.js:
 
-```
+```js
 import "scrivito-swipeable";
 ```
 
 ## Features
-You can choose between three swipeable types in the widget configuration form.
+Renders a swipable slider.
 
-## Development
+## Widget properties
 
-With `npm run build` you can build the package into `build/`.
+In the widget properties you can set:
+- Image
+  - Title
+  - Text
 
-With `npm start` you'll start a continues process, that rebuilds `build/` automatically once the source code is changed.
-
-To add this library locally do the following in your scrivito app:
-
-```
-npm install file:<path to build folder>
-```
-
-e.g.
-
-```
-npm install file:../scrivito-swipeable/build/
-```
-
-To publish the package:
-
-```
-npm i && npm run build && cd build/ && npm publish
-```
-
-## Check code quality
-
-With `npm run eslint` and `npm run es-check` you can check your coding quality.
+or
+- Video
